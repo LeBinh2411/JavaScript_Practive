@@ -1,27 +1,27 @@
-function login(usernameHehe, passwordHehe) {
+function login(username9, password9) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       const userName = "admin";
       const passWord = "123456";
 
-      if (usernameHehe === userName && passwordHehe === passWord) {
-        resolve("Dang nhap thanh cong roi hehehe");
+      if (username9 === userName && password9 === passWord) {
+        resolve("Dang nhap thanh cong roi");
       } else {
         reject("Oh sai ten dang nhap hoac mat khau roi");
       }
-    }, 3000); //cho 3 giay nhe
+    }, 3000); //cho 3 giay
   });
 }
 
 //goi ham login
 login("admin1", "123456")
   .then((message) => {
-    console.log("chuc mung " + message);
+    console.log("Chuc mung " + message);
   })
   .catch((error) => {
-    console.log("toang " +error);
+    console.log("Loi " +error);
   });
-
+console.log("6");
 
 ///1 vi du ve setTimeOut 
 console.log("1");

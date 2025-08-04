@@ -56,7 +56,7 @@ bigStr.match(bgRegex);
 bagStr.match(bgRegex);
 bugStr.match(bgRegex);
 bogStr.match(bgRegex);
-//Theo thứ tự, bốn matchlệnh gọi sẽ trả về các giá trị ["big"], ["bag"], ["bug"], và null.
+//Theo thứ tự, bốn match lệnh gọi sẽ trả về các giá trị ["big"], ["bag"], ["bug"], và null.
 
 let catStr = "cat";
 let batStr = "bat";
@@ -81,7 +81,7 @@ let myRegex4 = /[^3a-d]/gi; // Change this line
 let result4  = quoteSample.match(myRegex4); // Change this line
 console.log("hi 1"+result4);
 
-// Ví dụ, /a+/gsẽ tìm thấy một kết quả khớp trong abc và trả về ["a"]. 
+// Ví dụ, /a+/g sẽ tìm thấy một kết quả khớp trong abc và trả về ["a"]. 
 // Vì +, nó cũng sẽ tìm thấy một kết quả khớp duy nhất trong aabc và trả về ["aa"].
 // let difficultSpelling = "Mississippi";
 // let myRegex = /s+/g; // Change this line
